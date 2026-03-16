@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>FC Barcelona - Més que un club</title>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+    <div class="topbar-inner">
+        <div class="topbar-left">
+            <a onclick="showSection('home')" id="nav-home" class="active">Home</a>
+            <a onclick="showSection('historia')" id="nav-historia">História</a>
+            <a onclick="showSection('titulos')" id="nav-titulos">Títulos</a>
+        </div>
+        <div class="topbar-center">FC BARCELONA</div>
+        <div class="topbar-right">
+            <a onclick="showSection('idolos')" id="nav-idolos">Ídolos</a>
+            <a onclick="showSection('beirario')" id="nav-beirario">Beira Rio</a>
+            <a href="https://www.instagram.com/fcbarcelona/" target="_blank">📷</a>
+        </div>
+    </div>
+</div>
+
+<!-- SEÇÃO: HOME -->
+<section id="home" class="page-section active">
+    <main class="cards-container">
+        <a onclick="showSection('historia')" class="card">
+            <img src="historia.jpg" class="card-bg">
+            <div class="card-content">
+                <span class="small-text">NOSSA</span>
+                <h2 class="big-text">HISTÓRIA</h2>
+            </div>
+        </a>
+        <a onclick="showSection('titulos')" class="card">
+            <img src="titulos.jpg" class="card-bg">
+            <div class="card-content">
+                <span class="small-text">NOSSOS</span>
+                <h2 class="big-text">TÍTULOS</h2>
+            </div>
+        </a>
+        <a onclick="showSection('idolos')" class="card">
+            <img src="idolos.webp" class="card-bg">
+            <div class="card-content">
+                <span class="small-text">NOSSOS</span>
+                <h2 class="big-text">ÍDOLOS</h2>
+            </div>
+        </a>
+        <a onclick="showSection('beirario')" class="card">
+            <img src="beirario.jpg" class="card-bg">
+            <div class="card-content">
+                <span class="small-text">O TEMPLO</span>
+                <h2 class="big-text">BEIRA-RIO</h2>
+            </div>
+        </a>
+    </main>
+</section>
+
+<!-- SEÇÃO: HISTÓRIA -->
+<section id="historia" class="page-section">
+    <div class="page-container">
+        <header class="page-header">
+            <img src="historia.jpg">
+            <h1>NOSSA HISTÓRIA</h1>
+        </header>
+        <div class="page-content">
+            <h2>Més que un club</h2>
+            <p>Fundado em 1899 por Joan Gamper, o FC Barcelona tornou-se um símbolo da identidade catalã. Com uma filosofia baseada no futebol ofensivo e na formação de talentos na La Masia, o clube conquistou o mundo.</p>
+            <p>Desde os tempos de Johan Cruyff até a era de ouro de Pep Guardiola, o Barcelona redefiniu o futebol moderno com o estilo "Tiki-Taka", encantando gerações de torcedores.</p>
+        </div>
+    </div>
+</section>
+
+<!-- SEÇÃO: TÍTULOS -->
+<section id="titulos" class="page-section">
+    <div class="page-container">
+        <header class="page-header">
+            <img src="titulos.jpg">
+            <h1>NOSSOS TÍTULOS</h1>
+        </header>
+        <div class="page-content">
+            <h2>Uma Galeria de Glórias</h2>
+            <p>O Barcelona é um dos clubes mais vitoriosos do planeta, com uma coleção impressionante de troféus nacionais e internacionais.</p>
+            <div class="titulos-grid">
+                <div class="titulo-card"><div class="titulo-numero">27</div><div class="titulo-nome">La Liga</div></div>
+                <div class="titulo-card"><div class="titulo-numero">31</div><div class="titulo-nome">Copa del Rey</div></div>
+                <div class="titulo-card"><div class="titulo-numero">5</div><div class="titulo-nome">Champions</div></div>
+                <div class="titulo-card"><div class="titulo-numero">3</div><div class="titulo-nome">Mundiais</div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEÇÃO: ÍDOLOS -->
+<section id="idolos" class="page-section">
+    <div class="page-container">
+        <header class="page-header">
+            <img src="idolos.webp">
+            <h1>NOSSOS ÍDOLOS</h1>
+        </header>
+        <div class="page-content">
+            <h2>Lendas Eternas</h2>
+            <p>Grandes nomes vestiram a camisa blaugrana e deixaram um legado inesquecível no Camp Nou.</p>
+            <div class="idolos-list">
+                <div class="idolo-item">
+                    <div class="idolo-num">#10</div>
+                    <div class="idolo-info"><h3>Lionel Messi</h3><p>O maior de todos os tempos. Artilheiro e gênio absoluto.</p></div>
+                </div>
+                <div class="idolo-item">
+                    <div class="idolo-num">#14</div>
+                    <div class="idolo-info"><h3>Johan Cruyff</h3><p>O arquiteto do futebol moderno do Barcelona.</p></div>
+                </div>
+                <div class="idolo-item">
+                    <div class="idolo-num">#8</div>
+                    <div class="idolo-info"><h3>Andrés Iniesta</h3><p>O maestro que desenhava arte no meio-campo.</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEÇÃO: BEIRA RIO -->
+<section id="beirario" class="page-section">
+    <div class="page-container">
+        <header class="page-header">
+            <img src="beirario.jpg">
+            <h1>BEIRA-RIO</h1>
+        </header>
+        <div class="page-content">
+            <h2>O Gigante da Beira-Rio</h2>
+            <p>O Estádio José Pinheiro Borda, o Beira-Rio, é a casa do Sport Club Internacional. Inaugurado em 1969, é um dos estádios mais icônicos do Brasil.</p>
+            <p>Localizado às margens do Rio Guaíba, o estádio foi reformado para a Copa do Mundo de 2014, tornando-se uma das arenas mais modernas e bonitas do mundo.</p>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-column">
+            <h3>FC BARCELONA</h3>
+            <p>Mais que um clube. Uma paixão que une milhões ao redor do mundo através do futebol e da cultura.</p>
+        </div>
+        <div class="footer-column">
+            <h3>NAVEGAÇÃO</h3>
+            <ul>
+                <li><a onclick="showSection('home')">Página Inicial</a></li>
+                <li><a onclick="showSection('historia')">História</a></li>
+                <li><a onclick="showSection('titulos')">Títulos</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>SOCIAL</h3>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">YouTube</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2026 FC Barcelona & Sport Club Internacional. Design Premium Unificado.
+    </div>
+</footer>
+
+<script>
+    function showSection(sectionId) {
+        // Esconder seções
+        document.querySelectorAll('.page-section').forEach(s => s.classList.remove('active'));
+        // Mostrar alvo
+        document.getElementById(sectionId).classList.add('active');
+        // Atualizar menu
+        document.querySelectorAll('.topbar-left a, .topbar-right a').forEach(l => l.classList.remove('active'));
+        const activeLink = document.getElementById('nav-' + sectionId);
+        if (activeLink) activeLink.classList.add('active');
+        // Scroll topo
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+</script>
+
+</body>
+</html>
